@@ -1,0 +1,11 @@
+stellar:
+  network: "testnet"  # or "mainnet"
+  horizon_url: https://horizon-testnet.stellar.org
+  usdc_asset:
+    code: "USDC"
+    issuer: "GA5ZSEWYN46VMKMJYNZ74YEAVR7WHDXAWAV7K4LDPWP5BKHJGLFHBW4T"
+
+transak:
+  api_key: "your-transak-api-key"
+  base_url: "https://api.transak.com"
+
