@@ -12,7 +12,7 @@
 // Step 3) Download model: ollama pull tinyllama
 // Step 4) Run the model: ollama run tinyllama
 
-// Import necessary modules
+// Import modules
 import express from "express";
 import fetch from "node-fetch";
 
