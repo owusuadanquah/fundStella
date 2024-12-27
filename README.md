@@ -10,6 +10,8 @@ Fund Stella is a decentralized platform built on Stellar's **Soroban smart contr
 - **Fiat-to-Crypto On-Ramp**: Integrated with fiat-to-crypto services like Transak.
 - **End-to-End Rust**: Built using Rust for Soroban contracts and client-side integration.
 
+![Fund Stella Integrations](https://github.com/owusuadanquah/fundStella/blob/main/docs/images/fund-stella-stellar-integration.png)
+
 ## Generative AI
 
 Fund Stella leverages Generative AI to provide tailored mentorship and guidance to young women.
