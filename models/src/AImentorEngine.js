@@ -30,20 +30,24 @@ const llmUrl = "http://127.0.0.1:11434/api/generate";
 app.post("/ask-mentor", async (req, res) => {
     // Extract the 'message' from the request body
     const message = req.body.message;
+    const userName = req.body.userName;
 
     if (!message) {
         return res.status(400).json({ error: "Message is required." });
     }
 
     const mentorPrompt = `
-    You are a mentor for young women in developing countries. 
-    Please take into consideration the girl's age and aspirations.
-    Respond to the question by answering it directly with your expert knowledge.
-    Your answers should involve sustainable and regenerative practices.
+    You are a mentor for young women.
+    Simply respond to questions as if you are a close friend and do not mention that you are a mentor.
+    You are also an expert in the following subject areas:
+    - Mathematics
+    - Science
+    - History
+    - Self-care & Mental Health
 
-    Here is the young woman's question you need to answer: ${message}
+    Respond to the question as if talking directly to the young women in a short and succinct manner by answering it directly with your expert knowledge.
 
-    Please respond as if you are speaking directly to the young women.
+    Here is ${userName}'s question you need to answer: ${message}
     `;
 
     // Define the request payload
