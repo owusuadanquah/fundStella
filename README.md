@@ -40,7 +40,7 @@ http://127.0.0.1:3000/ask-mentor
 Pass a query to the model:
 ```
 {
-  "message": "What is the best way to help for geometry homework questions?"
+  "message": "What is the best way to help for geometry homework questions?", "userName": "Rachel"
 }
 ```
 
@@ -50,4 +50,6 @@ Example Response:
   "response": "Depending on the resources you have available to you, you can consider the following options: ..."
 }
 ```
-
+Terminate the Process
+- list the process running at the specific port `lsof -i :11434`
+- terminate the process by the process ID returned using `kill <PID>`
