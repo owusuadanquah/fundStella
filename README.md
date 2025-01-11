@@ -7,8 +7,8 @@ Fund Stella is a decentralized platform built on Stellar's **Soroban smart contr
 
 - **Donation Smart Contract**: Allows secure and transparent transfers using Soroban smart contracts.
 - **Dynamic Configuration**: Supports dynamic setup of USDC issuer and other parameters.
-- **Fiat-to-Crypto On-Ramp**: Integrated with fiat-to-crypto services like Transak.
-- **End-to-End Rust**: Built using Rust for Soroban contracts and client-side integration.
+- **Fiat-to-Crypto On-Ramp**: Integrates with fiat-to-crypto services (Yellow Card). Current MVP implementation supports stripe based fiat donations to demonstrate feasibility. 
+- **End-to-End Rust**: Flutter app built using Dart and Rust for Soroban contracts and client-side integration.
 
 ![Fund Stella Integrations](https://github.com/owusuadanquah/fundStella/blob/main/docs/images/fund-stella-stellar-integration.png)
 
