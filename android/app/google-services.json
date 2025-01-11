@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "703369635605",
+    "project_id": "fund-stella",
+    "storage_bucket": "fund-stella.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703369635605:android:b771a64d388e85f98e6b1c",
+        "android_client_info": {
+          "package_name": "com.mycompany.donationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703369635605-tg9l2i2eddhevd4870uhe1hsekbrih77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7wJz7sxxEGrSQj5zZPsI9tj9n9yMGxuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703369635605-tg9l2i2eddhevd4870uhe1hsekbrih77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
